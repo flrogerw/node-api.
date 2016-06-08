@@ -1,0 +1,13 @@
+{
+  "name": "order",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "orders",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,13 @@
+{
+  "name": "address",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "addresses",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

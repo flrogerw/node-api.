@@ -1,0 +1,13 @@
+{
+  "name": "postgresql",
+  "base": "Model",
+  "idInjection": true,
+  "plural": "postgresql",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

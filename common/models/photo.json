@@ -1,0 +1,13 @@
+{
+  "name": "photo",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "photos",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

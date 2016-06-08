@@ -1,0 +1,64 @@
+{
+  "_meta": {
+    "sources": [
+      "loopback/common/models",
+      "loopback/server/models",
+      "../common/models",
+      "./models"
+    ],
+    "mixins": [
+      "loopback/common/mixins",
+      "loopback/server/mixins",
+      "../common/mixins",
+      "./mixins"
+    ]
+  },
+  "product": {
+    "dataSource": null,
+    "public": true
+  },
+  "category": {
+    "dataSource": null,
+    "public": true
+  },
+   "postgresql": {
+    "dataSource": null,
+    "public": true
+  },
+   "photo": {
+    "dataSource": null,
+    "public": true
+  },
+   "photo": {
+    "dataSource": null,
+    "public": true
+  },
+   "auth": {
+    "dataSource": null,
+    "public": true
+  },
+   "cart": {
+    "dataSource": null,
+    "public": true
+  },
+   "token": {
+    "dataSource": null,
+    "public": false
+  },
+   "address": {
+    "dataSource": null,
+    "public": true
+  },
+   "discount": {
+    "dataSource": null,
+    "public": true
+  },
+   "order": {
+    "dataSource": null,
+    "public": true
+  },
+   "user": {
+    "dataSource": null,
+    "public": true
+  }
+}

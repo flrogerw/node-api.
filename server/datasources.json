@@ -1,0 +1,11 @@
+{
+  "Product": {
+    "host": "prod-photoandgo.ca7cinmuzpxy.us-west-2.rds.amazonaws.com",
+    "port": 5432,
+    "database": "photoandgo",
+    "password": "7x36mg!4",
+    "name": "Product",
+    "user": "photogo",
+    "connector": "postgresql"
+  }
+}

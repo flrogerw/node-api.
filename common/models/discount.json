@@ -1,0 +1,13 @@
+{
+  "name": "discount",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "discounts",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

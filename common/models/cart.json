@@ -1,0 +1,13 @@
+{
+  "name": "cart",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "cart",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

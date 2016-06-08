@@ -1,0 +1,13 @@
+{
+  "name": "category",
+  "base": "Model",
+  "idInjection": false,
+  "plural": "categories",
+  "options": {
+    "validateUpsert": true
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
