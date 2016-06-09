@@ -1,5 +1,6 @@
 var pg = require('pg');
-var conString = "postgres://photogo:7x36mg!4@prod-photoandgo.ca7cinmuzpxy.us-west-2.rds.amazonaws.com:5432/photoandgo";
+var current_db = (process.env.ENV == 'PROD')? 'photoandgo': 'photoandgo_dev';
+var conString = "postgres://photogo:7x36mg!4@prod-photoandgo.ca7cinmuzpxy.us-west-2.rds.amazonaws.com:5432/" + current_db;
 
 module.exports = function(Postgresql) {
 	
