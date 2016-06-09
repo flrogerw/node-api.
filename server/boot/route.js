@@ -1,3 +1,9 @@
+/**
+ * Main Routing Table
+ * 
+ * 
+ */
+
 module.exports = function(app) {
 	
 	var Product = app.models.Product;
